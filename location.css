@@ -68,25 +68,26 @@
 
 /* Background Images */
 .golden {
-  background-image: url("./images/golden-bg.png.jpeg");
+  background-image: url("./golden-bg.png.jpeg");
 }
 
 .woods {
-  background-image: url("./images/woods-bg.png.jpeg");
+  background-image: url("./woods-bg.png.jpeg");
 }
 
 .mystic {
-  background-image: url("./images/mystic-bg.png.jpeg");
+  background-image: url("./mystic-bg.png.jpeg");
 }
 
 .azure {
-  background-image: url("./images/azure-bg.png.jpeg");
+  background-image: url("./azure-bg.png.jpeg");
 }
 
 .volcano {
-  background-image: url("./images/volcano-bg.png.jpeg");
+  background-image: url("./volcano-bg.png.jpeg");
 }
 
 .peaks {
-  background-image: url("./images/peaks-bg.png.jpeg");
+  background-image: url("./peaks-bg.png.jpeg");
+
 }
