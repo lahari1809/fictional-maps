@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+}
+
+.welcome-box {
+  text-align: center;
+}
+.welcome-tagline {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  background: orange;
+  font-size: 18px;
+  cursor: pointer;
+}

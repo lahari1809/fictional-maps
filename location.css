@@ -1,0 +1,92 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Full Background Page */
+.location-page {
+   min-height: 100vh;
+
+  background-size: cover;
+  background-position: center 30%;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* Bottom Center Content Box */
+.info-box {
+  width: 70%;
+  max-width: 700px;
+
+  margin-bottom: 50px;
+  padding: 25px 30px;
+
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+
+  border-radius: 15px;
+  text-align: center;
+
+  box-shadow: 0 0 25px rgba(0,0,0,0.6);
+}
+
+/* Heading */
+.info-box h1 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.info-box p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.info-box button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+
+  background: gold;
+  color: black;
+
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.info-box button:hover {
+  background: orange;
+}
+
+/* Background Images */
+.golden {
+  background-image: url("./images/golden-bg.png.jpeg");
+}
+
+.woods {
+  background-image: url("./images/woods-bg.png.jpeg");
+}
+
+.mystic {
+  background-image: url("./images/mystic-bg.png.jpeg");
+}
+
+.azure {
+  background-image: url("./images/azure-bg.png.jpeg");
+}
+
+.volcano {
+  background-image: url("./images/volcano-bg.png.jpeg");
+}
+
+.peaks {
+  background-image: url("./images/peaks-bg.png.jpeg");
+}

@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  overflow: hidden;
+
+}
+.map-title {
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.map-container {
+  width: 100vw;
+  height: 100vh;
+  background: url("images/map-bg.png.jpeg") no-repeat center;
+  background-size: cover;
+  background-position: center 10%;
+}
+
+
+/* Traveler */
+#traveler {
+  width: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: 1s;
+}
+
+/* Location Markers */
+.marker {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.6);
+}
+
+.marker:hover {
+  background: rgba(255,255,255,0.2);
+}

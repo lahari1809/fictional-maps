@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+
+  <div class="welcome-box">
+    <h1>Welcome Adventurer 🌍</h1>
+    <p> Click Start to begin</p>
+
+    <button id="startBtn">Start</button>
+  </div>
+<p class="welcome-tagline"> A fictional map is an imagined world filled with creative lands, hidden secrets, and untold adventures.</p>
+  <script>
+    const startBtn = document.getElementById("startBtn");
+
+    startBtn.addEventListener("click", () => {
+      window.location.href = "map.html";
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        window.location.href = "map.html";
+      }
+    });
+  </script>
+
+</body>
+</html>

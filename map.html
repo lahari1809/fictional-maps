@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Adventure Map</title>
+
+  <link rel="stylesheet" href="map.css">
+</head>
+
+<body>
+  <h1 class="map-title">Fictional World!!</h1>
+
+  <!-- Map Background -->
+  <div class="map-container">
+
+    <!-- Traveler -->
+    <img src="images/WhatsApp Image 2026-02-22 at 6.13.40 PM.jpeg" id="traveler">
+
+    <!-- Location Markers -->
+    <div class="marker" onclick="goLocation('peaks.html')" style="top:25%; left:70%;">
+      📍 Iron Peaks
+    </div>
+
+    <div class="marker" onclick="goLocation('woods.html')" style="top:55%; left:65%;">
+      📍 Whispering Woods
+    </div>
+
+    <div class="marker" onclick="goLocation('mystic.html')" style="top:35%; left:25%;">
+      📍 Mystic Lake
+    </div>
+
+    <div class="marker" onclick="goLocation('azure.html')" style="top:60%; left:30%;">
+      📍 Azure Coast
+    </div>
+
+    <div class="marker" onclick="goLocation('golden.html')" style="top:60%; left:45%;">
+      📍 Golden Plains
+    </div>
+
+    <div class="marker" onclick="goLocation('volcano.html')" style="top:15%; left:50%;">
+      📍 Volcano Badlands
+    </div>
+
+  </div>
+
+  <script src="map.js"></script>
+</body>
+</html>
